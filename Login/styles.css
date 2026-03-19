@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {                      /*Parte que pega todo Site*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "Poppins", sans-serif;
+}
+
+body{                    /*Parte que pega o login*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("./img/Estante\ generica.avif");
+    background-position: center;
+}
+
+.container{ /*Parte que pega a class main container */
+    width: 420px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2); 
+    border-radius: 10px;
+    color: #fff;
+    padding: 30px 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    backdrop-filter: blur(50px);
+}
+
+.container h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 40px 0;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: solid 2px rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 40px;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+    color: rgb(247, 247, 247);
+    
+}
+
+.login {
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    box-shadow: #0f0909;
+}
+
+.login:hover{
+    background-color: #8690e2;
+    border: 2px solid #3f0909;;
+    color: #fff;
+}
+
+.creat-cont{
+    font-size: 16px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.creat-cont a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.creat-cont a:hover{
+    text-decoration: underline;
+    color: aqua;
+}
+
+.volt{
+    font-size: 16px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+.volt a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+.volt a:hover{
+    text-decoration: underline;
+    color: rgb(238, 42, 35);
+}
